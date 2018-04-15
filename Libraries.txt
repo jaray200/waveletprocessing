@@ -1,0 +1,5 @@
+MPAWL: https://github.com/kellertuer/MPAWL-Matlab
+LTFAT: http://ltfat.github.io/doc/wavelets/ufwt.html
+WAVELAB 850: http://statweb.stanford.edu/~wavelab/Wavelab_850/download.html
+SCILAB Wavelet Toolbox: http://scwt.sourceforge.net/
+WavBox: https://www.toolsmiths.com/Wavelet/WavBox
