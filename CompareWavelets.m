@@ -27,15 +27,23 @@ figure;
 % ylabel('Voltage (mV)');
 % axis([0 length(WestpointAveraged(1).raw) -400 400])
 
-subplot(2,1,1);
-plot(x,WestpointUnAveraged(2).hdb4);
-title({'Hard vs. Soft Thresholding','db4','Hard'})
+
+plot(x,WestpointAveraged(3).raw);
+title('Averaged');
 xlabel('Time (msec)');
 ylabel('Voltage (mV)');
-axis([0 x(length(x)) -400 400])
-subplot(2,1,2);
-plot(x,WestpointUnAveraged(2).sdb4);
-title('Soft')
+%axis([0 x(length(x)) -400 400])
+
+figure;
+plot(x,WestpointUnAveraged(3).raw);
+title('UnAveraged')
 xlabel('Time (msec)');
 ylabel('Voltage (mV)');
-axis([0 x(length(x)) -400 400])
+%axis([0 x(length(x)) -400 400])
+
+figure;
+plot(x,WestpointUnAveraged(1).sdb3);
+title('Wavelet')
+xlabel('Time (msec)');
+ylabel('Voltage (mV)');
+%axis([0 x(length(x)) -400 400])
